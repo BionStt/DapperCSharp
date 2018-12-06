@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DapperCSharp.Domain\DapperCSharp.Domain.csproj" />
+    <ProjectReference Include="..\DapperCSharp.Data.Infra\DapperCSharp.Data.Infra.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
